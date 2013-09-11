@@ -3,14 +3,16 @@ h1, h2{
 	color: #1D2326;
 	background-color: #76A6A6;
 }
+/* Body Color */
 body {
 	background-color: #D9D1C7;
 }
-/* Paragraph color */
+/* Paragraph color for summary only */
 p.summary{
 	color: #1D2326;
 	background-color: #ADA9A0;
 }
+/* Paragraph color */
 p {
 	background-color: #949088;
 }
