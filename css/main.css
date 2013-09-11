@@ -1,20 +1,34 @@
 /* CSS Style sheet for font formatting 8?
 /* Heading 1 Text */
+
+/*  Must include:
+    font-family
+    font-size
+    font-weight
+    font-style
+    text-transform
+    line-height
+    letter-spacing or word-spacing
+    text-align or text-indent */
 h1 { 
-	text: 
+	font-family: 'Denk One', sans-serif;
+	font-size: 40px;
 }
 /* Heading 2 Text */
 h2 {
-	text:
+	font-family: 'Port Lligat Sans', sans-serif;
+	font-weight: bold;
 }
-/* Body Text */
-body {
-	text:
+h3 {
+	font-family: 'Denk One', sans-serif;
+	text-transform: uppercase;
 }
 
 /* Paragraph Text */
 p {
-	text:
+	font-family: 'Port Lligat Sans', sans-serif;
+	line-height: 1.4em;
+	letter-spacing: 0.05em;
 }
 /* List Text */
 ul {
