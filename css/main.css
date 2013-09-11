@@ -13,15 +13,19 @@
 h1 { 
 	font-family: 'Denk One', sans-serif;
 	font-size: 40px;
+	text-shadow: 5px 5px 7px #111111;
 }
 /* Heading 2 Text */
 h2 {
 	font-family: 'Port Lligat Sans', sans-serif;
 	font-weight: bold;
+	text-shadow: 5px 5px 7px #111111;
 }
+/* Heading 3 Text */
 h3 {
 	font-family: 'Denk One', sans-serif;
 	text-transform: uppercase;
+	text-shadow: 5px 5px 7px #111111;
 }
 
 /* Paragraph Text */
@@ -32,5 +36,14 @@ p {
 }
 /* List Text */
 ul {
-	text:
+	font-family: 'Port Lligat Sans', sans-serif;
 }
+/* Address align */
+address {
+	text-align: right;
+}
+/* Making first letter in starting paragraph larger */
+p.summary:first-letter {
+	font-size: 150%;
+}
+/* Links text setup */
