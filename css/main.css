@@ -1,5 +1,4 @@
 /* CSS Style sheet for font formatting 8?
-/* Heading 1 Text */
 
 /*  Must include:
     font-family
@@ -10,6 +9,8 @@
     line-height
     letter-spacing or word-spacing
     text-align or text-indent */
+    
+/* Heading 1 Text */    
 h1 { 
 	font-family: 'Denk One', sans-serif;
 	font-size: 40px;
