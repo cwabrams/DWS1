@@ -41,9 +41,23 @@ ul {
 /* Address align */
 address {
 	text-align: right;
+	font-style: bold;
 }
 /* Making first letter in starting paragraph larger */
 p.summary:first-letter {
 	font-size: 150%;
 }
-/* Links text setup */
+/* Links text setup for visited, active, hover and normal */
+a:link {
+	color: blue;
+}
+a:visited {
+	color: #187FB8;
+}
+a:hover {
+	color: #006112;
+
+}
+a:active {
+	color: yellow;
+}
