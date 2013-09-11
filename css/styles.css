@@ -1,7 +1,12 @@
-/* Heading color */
-h1, h2{ 
+/* Heading 1 color */
+h1 { 
 	color: #1D2326;
 	background-color: #76A6A6;
+	opacity: 0.75;
+}
+/* Heading 2 Color */
+h2 {
+	background-color: rgb(70,85,92);
 }
 /* Body Color */
 body {
@@ -15,5 +20,14 @@ p.summary{
 /* Paragraph color */
 p {
 	background-color: #949088;
+}
+/* Music paragraph color */
+p.music{
+	color: White;
+	background-color: #242866;
+}
+/* List color */
+ul {
+	background-color: hsla(0,100%,100%,0.5);
 }
 
