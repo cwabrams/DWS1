@@ -80,7 +80,8 @@ p {
 	padding: 10px 10px 10px 10px;
 	border: 4px solid;
 }
-/* List Text and Insert Box formatting*/
+/* List Text and Insert Box formatting (I have included square as the list type, but have it inline 
+so it is not appearing.  I did not think that adding a list was necessary to show that element*/
 ul {
 	font-family: 'Port Lligat Sans', sans-serif;
 	list-style-type: square;
