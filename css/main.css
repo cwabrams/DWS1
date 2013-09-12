@@ -10,52 +10,86 @@
     letter-spacing or word-spacing
     text-align or text-indent */
     
-/* Heading 1 Text */    
+/*Body overall spacing for page */
+body{
+	width: 960px;
+	padding: 20px;
+	margin-left: 10px auto;
+	margin-left: 10px auto;
+}
+/* Groupings for shadow boxes*/
+h1, h2, h3, p, ul{
+	-moz-box-shadow: 5px 5px 5px 5px #777777;
+	-webkit-box-shadow: 5px 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px 5px #777777;
+}
+/* Heading 1 Text and box formatting*/  
 h1 { 
 	font-family: 'Denk One', sans-serif;
 	font-size: 40px;
 	text-shadow: 5px 5px 10px #111111;
+	color: black;
 	text-align: center;
 	width: 550px;
-	border: 4px solid black;
+	margin: 20px auto 20px auto;
 	padding: 25px 15px, 25px, 15px;
+	border: 4px solid black;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+
 }
-/* Heading 2 Text */
+/* Heading 2 Text and box formatting */
 h2 {
 	font-family: 'Port Lligat Sans', sans-serif;
+	font-size: 26px;
 	font-weight: bold;
-	text-shadow: 5px 5px 7px #111111;
-	height: 40px;
+	text-shadow: 5px 5px 10px #111111;
+	text-align: center;
+	height: 25px;
 	width: 250px;
+	margin: 20px auto 20px auto;
 	padding: 10px 10px 10px 10px;
+	border: 4px solid black;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 }
-/* Heading 3 Text */
+/* Heading 3 Text and box formatting */
 h3 {
 	font-family: 'Denk One', sans-serif;
 	text-transform: uppercase;
 	text-shadow: 5px 5px 7px #111111;
+	width: 250px;
+	margin: 20px auto 20px auto;
+	padding: 10px 10px 10px 10px;
+	border: 4px solid black;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
 
-/* Paragraph Text */
+/* Paragraph Text and box formatting */
 p {
 	font-family: 'Port Lligat Sans', sans-serif;
 	line-height: 1.4em;
 	letter-spacing: 0.05em;
+	width: 750px;
+	margin: 20px auto 20px auto;
+	padding: 10px 10px 10px 10px;
+	border: 4px solid;
 }
-/* List Text */
+/* List Text and Insert Box formatting*/
 ul {
 	font-family: 'Port Lligat Sans', sans-serif;
 	list-style-type: square;
+	-moz-box-shadow: inset 0 0 10px #777777;
+	-webkit-box-shadow: inset 0 0 10px #777777;
+	box-shadow: inset 0 0 10px #777777;
 }
-/* Address align */
+/* Address align changed to center for formatting*/
 address {
-	text-align: right;
+	text-align: center;
 	font-style: bold;
 }
 /* Making first letter in starting paragraph larger */
