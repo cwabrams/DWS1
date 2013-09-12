@@ -1,0 +1,24 @@
+/* Heading color */
+h1, h2{ 
+	color: #7E2E8C;
+	font-family: 'Glass Antiqua', cursive;
+	background-color: #8A8982;
+	text-shadow: 2px 2px 5px #FAE1E7;
+	font-size: 48px;
+	text-align: center;
+}
+/* Paragraph color */
+p {
+	color: #7E2E8C;
+	background-color: #8A8982;
+	font-size: 20px;
+	font-family: 'Fenix', serif;
+}
+body {
+	background-color: #DADBD8;
+}
+ol {
+	color: #7E2E8C;
+	font-size: 20px;
+	font-family: 'Fenix', serif;
+}
