@@ -8,6 +8,10 @@ h1 {
 h2 {
 	background-color: rgb(70,85,92);
 }
+h3, h4 {
+	background-color: white;
+	background: #D9D1C7 url("images/music.png") no-repeat top left;
+}
 /* Body Color */
 body {
 	background: #D9D1C7 url("images/armor.gif") top left;
@@ -15,16 +19,16 @@ body {
 /* Paragraph color for summary only */
 p.summary{
 	color: #1D2326;
-	background-color: #ADA9A0;
-}
+	background: linear-gradient(to bottom, #e2e2e2 0%,#949088 51%,#fefefe 100%);}
 /* Paragraph color */
 p {
 	background-color: #949088;
+	
 }
 /* Music paragraph color */
 p.music{
-	color: White;
-	background-color: #717ECF;
+	color: #1D2326;
+	background: linear-gradient(to bottom, #e2e2e2 0%,#949088 51%,#fefefe 100%);
 }
 div.column1of3{
 	width: 35%;
