@@ -1,6 +1,6 @@
 /*Added backgrounds, gradients and images*/
 /* Heading 1 color */
-h1 { 
+header { 
 	color: #1D2326;
 	background-color: #76A6A6;
 	opacity: 0.75;
@@ -32,7 +32,7 @@ p.music{
 	background: linear-gradient(to bottom, #e2e2e2 0%,#949088 51%,#fefefe 100%);
 }
 div.column1of3{
-	width: 35%;
+	width: 36%;
 	float: left;
 	margin: 1%;
 }
