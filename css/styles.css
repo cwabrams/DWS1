@@ -11,6 +11,8 @@ h2 {
 /* Body Color */
 body {
 	background-color: #D9D1C7;
+	background-image: url("images/armored.gif");
+	background-position: left top;
 }
 /* Paragraph color for summary only */
 p.summary{
