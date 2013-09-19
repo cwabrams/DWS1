@@ -1,0 +1,135 @@
+/* CSS Style sheet for font formatting 8?
+
+/*  Must include:
+    font-family
+    font-size
+    font-weight
+    font-style
+    text-transform
+    line-height
+    letter-spacing or word-spacing
+    text-align or text-indent */
+    
+/*Body overall spacing for page */
+body{
+	width: 77%;
+	padding: 20px;
+	margin: 2% auto 2% auto;
+}
+/* Groupings for shadow boxes*/
+h1, h2, h3, p, ul{
+	-moz-box-shadow: 5px 5px 5px 5px #777777;
+	-webkit-box-shadow: 5px 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px 5px #777777;
+}
+/* Heading 1 Text and box formatting*/  
+h1 { 
+	font-family: 'Denk One', sans-serif;
+	font-size: 2.5em;
+	text-shadow: 5px 5px 10px #111111;
+	color: black;
+	text-align: center;
+	width: 55%;
+	margin: 1% auto 1% auto;
+	padding: 15px 15px 15px 15px;
+	border: 4px solid black;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+}
+/* Heading 2 Text and box formatting */
+h2 {
+	font-family: 'Port Lligat Sans', sans-serif;
+	font-size: 1.375em;
+	font-weight: bold;
+	text-shadow: 5px 5px 10px #111111;
+	text-align: center;
+	height: 25px;
+	width: 65%;
+	margin: 1% auto 1% auto;
+	padding: 10px 10px 10px 10px;
+	border: 4px solid black;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+/* Heading 3 Text and box formatting */
+h3 {
+	font-family: 'Denk One', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 10px #111111;
+	text-align: center;
+	width: 22.5%;
+	margin: 1% auto 1% auto;
+	padding: 20px 20px 20px 20px;
+	border: 4px solid black;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+h4 {
+	font-family: 'Denk One', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 10px #111111;
+	text-align: center;
+	width: 25%;
+	margin: 1% auto 1% auto;
+	padding: 20px 20px 20px 20px;
+	border: 4px solid black;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	clear: both;
+}
+
+/* Paragraph Text and box formatting */
+p {
+	font-family: 'Port Lligat Sans', sans-serif;
+	line-height: 1.4em;
+	letter-spacing: 0.05em;
+	margin: 2% auto 2% auto;
+	padding: 10px 10px 10px 10px;
+	border: 4px solid;
+}
+/* List Text and Insert Box formatting (I have included square as the list type, but have it inline 
+so it is not appearing.  I did not think that adding a list was necessary to show that element*/
+ul {
+	font-family: 'Port Lligat Sans', sans-serif;
+	list-style-type: square;
+	width: 77%;
+	margin: 2% auto 2% auto;
+	-moz-box-shadow: inset 0 0 10px #777777;
+	-webkit-box-shadow: inset 0 0 10px #777777;
+	box-shadow: inset 0 0 10px #777777;
+	clear: both;
+}
+/* Changing from inline to block for the Li */
+li{
+	display: inline;
+}
+/* Address align changed to center for formatting*/
+address {
+	text-align: center;
+	font-style: italic;
+	clear: both;
+	
+}
+/* Making first letter in starting paragraph larger */
+p.summary:first-letter {
+	font-size: 150%;
+}
+/* Links text setup for visited, active, hover and normal */
+a:link {
+	color: blue;
+}
+a:visited {
+	color: #187FB8;
+}
+a:hover {
+	color: #006112;
+
+}
+a:active {
+	color: yellow;
+}

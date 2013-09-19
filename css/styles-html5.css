@@ -1,0 +1,53 @@
+/*Added backgrounds, gradients and images*/
+/* Heading 1 color */
+h1 { 
+	color: #1D2326;
+	background-color: #76A6A6;
+	opacity: 0.75;
+}
+/* Heading 2 Color */
+h2 {
+	background-color: rgb(70,85,92);
+}
+h3, h4 {
+	background-color: white;
+	background: #D9D1C7 url("images/music.png") no-repeat top left;
+}
+/* Body Color */
+body {
+	background: #D9D1C7 url("images/armor.gif") top left;
+}
+/* Paragraph color for summary only */
+p.summary{
+	color: #1D2326;
+	background: linear-gradient(to bottom, #e2e2e2 0%,#949088 51%,#fefefe 100%);}
+/* Paragraph color */
+p {
+	background-color: #949088;
+	
+}
+/* Music paragraph color */
+p.music{
+	color: #1D2326;
+	background: linear-gradient(to bottom, #e2e2e2 0%,#949088 51%,#fefefe 100%);
+}
+div.column1of3{
+	width: 35%;
+	float: left;
+	margin: 1%;
+}
+.column2of3{
+	width: 30%;
+	float: left;
+	margin: 1%;
+}
+.column3of3{
+	width: 27.5%;
+	float: right;
+	margin: 1%;
+}
+/* List color */
+ul {
+	background-color: hsla(0,100%,100%,0.5);
+}
+
