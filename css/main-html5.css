@@ -85,7 +85,7 @@ h4 {
 }
 
 /* Paragraph Text and box formatting */
-p {
+p, table {
 	font-family: 'Port Lligat Sans', sans-serif;
 	line-height: 1.4em;
 	letter-spacing: 0.05em;
@@ -133,4 +133,22 @@ a:hover {
 }
 a:active {
 	color: yellow;
+}
+table {
+	width: 600 px;
+	margin: 1% auto 1% auto;
+	background: linear-gradient(to bottom, #e2e2e2 0%,#949088 51%,#fefefe 100%);
+}
+th, td {
+	padding: 7px 7px 7px 7px;
+	border: 2px solid #000000;
+	border-collapse: collapse;
+	text-align: center;
+}
+th{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+tr:hover{
+	background-color: #30303B;
 }
