@@ -23,6 +23,9 @@ p {
 }
 /* Music paragraph color */
 p.music{
+	float: left;
+	width: 350px;
+	margin: 10 px;
 	color: White;
 	background-color: #717ECF;
 }
