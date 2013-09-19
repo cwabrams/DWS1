@@ -23,11 +23,18 @@ p {
 }
 /* Music paragraph color */
 p.music{
-	float: left;
-	width: 350px;
-	margin: 10 px;
 	color: White;
 	background-color: #717ECF;
+}
+div.column1of3{
+	width: 400px;
+	float: left;
+	margin: 10px;
+}
+.column2of3, .column3of3{
+	width: 250px;
+	float: left;
+	margin: 10px;
 }
 /* List color */
 ul {
