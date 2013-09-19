@@ -10,9 +10,7 @@ h2 {
 }
 /* Body Color */
 body {
-	background-color: #D9D1C7;
-	background-image: url("images/armored.gif");
-	background-position: left top;
+	background: #D9D1C7 url("images/armor.gif") top left;
 }
 /* Paragraph color for summary only */
 p.summary{
