@@ -86,12 +86,50 @@
 		</aside>
 	</div>
 	<form action="example.php" method="post">
+	<h5>Subscribe</h5>
+		<fieldset>
+		<legend>Contact Information</legend>
 		<div>
-			<h3>Subscribe</h3>
 			<label for="name" class="title">Name:</label>
-			<input type="text" id="name" name="name" />
+			<input type="text" id="name" name="name" placeholder="John Doe"/>
 		</div>
-				
+		<br />
+		<div>
+			<label for="email" class="title">Email/User:</label>
+			<input type="email" id="email" name="email" required="required" placeholder="email@example.com"/>
+		</div>
+		<br />
+		<div>
+			<label for="password" class="title">Password:</label>
+			<input type="password" name="password" size="15" maxlength="30" required="required" placeholder="password" />
+		</div>
+		</fieldset>
+		<br />
+		<div class="radio-buttons">
+			<span class="title">Percussion Experience ?</span>
+			<input type="radio" name="percussion experience" id="yes" value="yes">
+			<label for="yes">Yes</label>
+			<input type="radio" name="percussion experience" id="no" value="no">
+			<label for="no">No</label>
+		</div>
+		<br />
+		<div>
+			<label for="region" class="region">Your Region:</label>
+			<select name="region" id="region">
+				<option value="east">East Coast</option>
+				<option value="eu">Europe</option>
+				<option value="ky">Kentucky</option>
+				<option value="id">Indiana</option>
+				<option value="mw">Mid-West</option>
+				<option value="oh">Ohio</option>
+				<option value="rm">Rocky Mountains</option>
+			</select>
+		</div>
+		<br />
+		<div class="submit">
+			<input type="submit" value="subscribe" id="subscribe" />
+		</div>
+	</form>		
 	<footer>
 		<address>
 			<p>Resource: <a href="http://en.wikipedia.org/wiki/Indoor_percussion_ensemble">http://en.wikipedia.org/wiki/Indoor_percussion_ensemble</a>
