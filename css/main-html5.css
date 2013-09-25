@@ -76,6 +76,8 @@ h4 {
 h5{
 	font-family: 'Denk One', sans-serif;
 	font-size: 16px;
+	text-shadow: 5px 5px 10px #111111;
+	text-align: center;
 }
 
 /* Paragraph Text and box formatting */
