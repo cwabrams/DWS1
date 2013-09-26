@@ -19,7 +19,6 @@ body {
 header { 
 	background: linear-gradient(to bottom, rgba(167,207,223,1) 41%,rgba(35,83,138,1) 100%);	font-size: 1.5em;
 	text-shadow: 5px 5px 10px #111111;
-	color: black;
 	width: 77%;
 	margin: 1% auto 1% auto;
 	padding: 5px 5px 5px 5px;
@@ -42,6 +41,7 @@ content{
 	width: 60%;
 	float: left;
 	margin: 1%;
+	padding: 10px 25px 10px 5px;
 }
 sidebar{
 	width: 30%;
