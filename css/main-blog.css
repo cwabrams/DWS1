@@ -1,7 +1,13 @@
 /*Blog CSS Page*/
 /* Heading 1 color */
-h1 { 
-	color: #1D2326;
-	background-color: #76A6A6;
-	opacity: 0.75;
+h1, h2, h3, h4 { 
+	font-family: 'Titillium Web', sans-serif;
+	background-color: #ACE2C7;
+}
+table, ul, ol, p, form, blockquote{
+	font-family: 'Oxygen', sans-serif;
+	color: #374004;
+}
+body {
+	background-color: #7A9499;
 }
