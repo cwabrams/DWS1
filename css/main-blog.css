@@ -118,3 +118,6 @@ a:active {
 tr:hover{
 	background-color: #58A6E2;
 }
+img{
+	align: right;
+}
