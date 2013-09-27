@@ -12,7 +12,7 @@ h1 {
 h2, h3, h4 { 
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: bold;
-	background-color: #a7cfdf;
+	background: linear-gradient(to bottom, rgba(167,207,223,0.75) 0%,rgba(133,196,221,0.75) 100%);
 	text-shadow: 2px 2px 15px #111111;
 	margin: 1% auto 1% auto;
 	padding: 5px 5px 5px 5px;
@@ -44,7 +44,8 @@ article {
 	border-radius: 10px;
 }
 header { 
-	background-color: #a7cfdf;	width: 77%;
+	background: linear-gradient(to bottom, rgba(167,207,223,0.75) 0%,rgba(133,196,221,0.75) 100%);
+	width: 77%;
 	height: 100px;
 	margin: 1% auto 1% auto;
 	padding: 5px 5px 5px 5px;
