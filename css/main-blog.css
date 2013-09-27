@@ -1,15 +1,17 @@
 /*Blog CSS Page*/
 h1 {
 	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
 	text-align: center;
 	text-shadow: 2px 2px 15px #111111;
 	text-transform: uppercase;
-	font-size: 56px;
+	font-size: 3.500em;
 	margin: auto auto auto auto;
 	padding: 5px 5px 5px 5px;
 }
 h2, h3, h4 { 
 	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
 	background-color: #a7cfdf;
 	text-shadow: 2px 2px 15px #111111;
 	margin: 1% auto 1% auto;
@@ -25,7 +27,10 @@ table{
 	background-color: #a7cfdf;
 }
 body {
-	background: linear-gradient(to bottom, rgba(102,182,252,1) 0%,rgba(178,225,255,1) 52%,rgba(102,182,252,1) 100%); 	
+	background-image: url("images/elephant.gif");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	/*background: linear-gradient(to bottom, rgba(102,182,252,1) 0%,rgba(178,225,255,1) 52%,rgba(102,182,252,1) 100%); */	
 	width: 77%;
 	padding: 10px;
 	margin: 1% auto 1% auto;
